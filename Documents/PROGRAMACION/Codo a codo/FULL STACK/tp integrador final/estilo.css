@@ -1,0 +1,98 @@
+/*Encabezado*/
+#menu{
+    display: flex;
+    background-color: rgb(80, 78, 78);
+    padding:3px 5%;
+}
+
+
+#menu img{
+    width: 100px;
+    height: 60px;
+}
+
+#menu p{
+    display: inline;
+    margin-bottom: 0;
+    color: white;   
+    font-size: 120%;
+}
+
+#menu nav{
+    padding-left: 30%;
+    display: inline-block;
+    align-items: right;
+    
+}
+
+#menu nav ul{
+    margin-top: 3vh;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#menu nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#menu nav ul li a{
+    text-decoration: none;
+}
+
+#tituloBlanco{
+    color: white;
+}
+#tituloGris{
+    color: rgb(139, 139, 139);
+}
+
+#tituloVerde{
+    color: green;
+}
+
+
+/*formulario*/
+.formulario {
+    padding: 0 22vw 0 22vw;
+}
+
+.formulario button{
+    background-color: #96C93E;
+    color: white;
+}
+
+.formulario button:hover{
+    background-color: #577524;
+    color: white;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #19425a;
+    justify-content: center;
+    height: 10vh;
+}
+
+#listaFooter{
+    list-style:none;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#listaFooter li{
+    display: inline;
+    text-align: center;
+    
+}
+
+#listaFooter li a{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
